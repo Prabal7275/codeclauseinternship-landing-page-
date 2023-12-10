@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding:0 ;
+    background-color:rgb(58, 58, 95);
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif; 
+    
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    
+}
+.navbar li{
+    list-style: none;
+ margin: 0 12px;
+}
+.topleft{
+    width: 50%;
+}
+.topright{
+    width: 50%;
+}
+.section1{
+    max-height: 100vh;
+
+}
+.logo{
+    font-size: 1.3rem;
+}
+.logoimg{
+    justify-content: center;
+    height: 130px;
+    width: 450px;
+    
+}
+.topright gymimg{
+    width: 666px;
+    box-shadow: 1px 2px 7px 4px rgb(0, 207, 200);
+
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2rem;
+
+}
+.box{
+    padding: 8px 0;
+    margin:12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(0, 207, 200);
+    text-align: center;
+    box-shadow: 1px 2px 7px 3px rgb(0, 207, 200);
+}
+.highlighted{
+    font-size:1.1rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style-type: none;
+   
+}
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.section3 table{
+    width: 100%;
+    margin-bottom:140px;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+.section3 h1{
+    font-size:2.3rem;
+}
+.section3{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section3 table th{
+    padding: 15px 0;
+    width: 23vw;
+    border-bottom: 2px solid black;
+    box-shadow: 1px 2px 7px 3px rgb(233, 166, 41) ;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+    box-shadow: 1px 2px 7px 3px rgb(0, 207, 200);
+}
+.section3 table tr{
+    border-bottom: 2px solid black;
+    box-shadow: 1px 2px 7px 3px rgb(0, 207, 200);
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 1%;
+    
+}
+.top{
+    width: 100%;
+    height: 50%;
+    
+}
+.slidediv{
+    width: 45%;
+    height: 280px;
+    position: absolute;
+    left: 370px;
+    right: 25000px;
+    transform:translate(-50% -50%); 
+    background-image:url('gym1.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 7px 4px rgb(0, 207, 200);
+    animation: slider 9s infinite linear;
+   
+}
+@keyframes slider{
+    0%{ background-image: url('gym1.jpg');}
+    20%{background-image: url('gmy2.png') ;}
+    40%{background-image: url('gmy3.png');}
+    60%{background-image: url('gmy4.png');}
+    80%{background-image: url('gym5.jpg');}
+    
+}
+.button{
+    text-align: center;
+}
